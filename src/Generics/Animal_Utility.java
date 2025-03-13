@@ -13,4 +13,12 @@ public class Animal_Utility {
             System.out.println(animal);
         }
    }
+
+   // ? we use this because we dont want to explicitly mention that the type it might be anything we can use directly which
+    //might be anything it might be t or it might be V etcc "It is just like wild Card that anything can be used here "?" -- > Anything"
+   public static  void printAnimal(List<? extends Animal> animals){
+       for(Animal animal : animals){
+           System.out.println(animal.getName());
+       }
+   }
 }
