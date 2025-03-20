@@ -1,4 +1,4 @@
-package InventoryManagement;
+package Generics.InventoryManagement;
 
 public class Clothing extends Item{
     private int size;

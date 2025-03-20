@@ -1,4 +1,4 @@
-package InventoryManagement;
+package Generics.InventoryManagement;
 
 public class Electronics extends Item{
     private int warranty;

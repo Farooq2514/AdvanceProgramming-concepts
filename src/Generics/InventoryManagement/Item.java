@@ -1,4 +1,4 @@
-package InventoryManagement;
+package Generics.InventoryManagement;
 
 public class Item implements Comparable<Item>{
     private String id;
@@ -60,4 +60,6 @@ public class Item implements Comparable<Item>{
         }
             return 0;
     }
+
+
 }
